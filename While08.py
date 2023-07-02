@@ -14,6 +14,6 @@ def main(s):
             k+=1
         i+=1
     return k
-s = "56786543250"
+s = "567865432501"
 
 print(main(s))
