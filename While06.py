@@ -7,3 +7,13 @@ def main(s):
     Returns:
         int: return answer
     """
+    consonants = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
+    count = 0
+    i = 0
+    while i < len(s):
+        if s[i] in consonants:
+            count += 1
+        i += 1
+    return count
+s = "CodeschoolUz"
+print(main(s))
