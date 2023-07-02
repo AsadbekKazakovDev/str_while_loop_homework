@@ -11,10 +11,10 @@ def main(s):
     i = 0
     while i <= len(s)-1:
          
-        if s[i].isupper():
+        if s[i] in string.punctuation:
             
             count +=1
         i+= 1
     return count
-s = "CodeschoolUz"
+s = "#hashtag@$"
 print(main(s))
