@@ -15,5 +15,5 @@ def main(s):
             count +=1
         i+= 1
     return count
-s = "CodeschooUz"
+s = "CodeschoolUz"
 print(main(s))
